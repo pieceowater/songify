@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C24B1597290F1C97009DDC18 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24B1596290F1C97009DDC18 /* Extentions.swift */; };
+		C24B159F290F2B8E009DDC18 /* Rat Boy IBDY - Whos Ready for Tomorrow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C24B1598290F2B89009DDC18 /* Rat Boy IBDY - Whos Ready for Tomorrow.mp3 */; };
+		C24B15A0290F2B8E009DDC18 /* Rosa Walton Hallie Coggins - I Really Want to Stay at Your House.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C24B1599290F2B8A009DDC18 /* Rosa Walton Hallie Coggins - I Really Want to Stay at Your House.mp3 */; };
+		C24B15A1290F2B8E009DDC18 /* Egg - putting a spin on heather.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C24B159A290F2B8A009DDC18 /* Egg - putting a spin on heather.mp3 */; };
+		C24B15A2290F2B8E009DDC18 /* Rafo Herro - To Make Time.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C24B159B290F2B8B009DDC18 /* Rafo Herro - To Make Time.mp3 */; };
+		C24B15A3290F2B8E009DDC18 /* tg.blk - Love Being Used.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C24B159C290F2B8D009DDC18 /* tg.blk - Love Being Used.mp3 */; };
+		C24B15A4290F2B8E009DDC18 /* Breakbot Irfane - Baby Im Yours.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C24B159D290F2B8E009DDC18 /* Breakbot Irfane - Baby Im Yours.mp3 */; };
+		C24B15A5290F2B8E009DDC18 /* Dusty Springfield - Son Of A Preacher Man.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C24B159E290F2B8E009DDC18 /* Dusty Springfield - Son Of A Preacher Man.mp3 */; };
+		C27A55B7290EDFE8000529F0 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A55B6290EDFE8000529F0 /* PlayerView.swift */; };
+		C27A55B9290EE015000529F0 /* PlayListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A55B8290EE015000529F0 /* PlayListView.swift */; };
+		C27A55BB290EE77A000529F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C27A55BA290EE77A000529F0 /* LaunchScreen.storyboard */; };
+		C27A55BD290EFD1C000529F0 /* CurrentSongViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A55BC290EFD1C000529F0 /* CurrentSongViewModel.swift */; };
+		C27A55C0290F000A000529F0 /* PlayListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A55BF290F000A000529F0 /* PlayListModel.swift */; };
+		C28043DB290EB58500A0B42D /* songifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28043DA290EB58500A0B42D /* songifyApp.swift */; };
+		C28043DF290EB58600A0B42D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28043DE290EB58600A0B42D /* Assets.xcassets */; };
+		C28043E2290EB58600A0B42D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28043E1290EB58600A0B42D /* Preview Assets.xcassets */; };
+		C28043EF290EBD5600A0B42D /* audioTest.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C28043EE290EBD5500A0B42D /* audioTest.m4a */; };
+		C28043F8290EDA6400A0B42D /* Jasper Byrne - Voyager.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C28043F5290EDA6400A0B42D /* Jasper Byrne - Voyager.mp3 */; };
+		C28043F9290EDA6400A0B42D /* The Killers - The Getting by II.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C28043F6290EDA6400A0B42D /* The Killers - The Getting by II.mp3 */; };
+		C28043FA290EDA6400A0B42D /* Pearl Jam - Given to fly.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C28043F7290EDA6400A0B42D /* Pearl Jam - Given to fly.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C24B1596290F1C97009DDC18 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		C24B1598290F2B89009DDC18 /* Rat Boy IBDY - Whos Ready for Tomorrow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rat Boy IBDY - Whos Ready for Tomorrow.mp3"; sourceTree = "<group>"; };
+		C24B1599290F2B8A009DDC18 /* Rosa Walton Hallie Coggins - I Really Want to Stay at Your House.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rosa Walton Hallie Coggins - I Really Want to Stay at Your House.mp3"; sourceTree = "<group>"; };
+		C24B159A290F2B8A009DDC18 /* Egg - putting a spin on heather.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Egg - putting a spin on heather.mp3"; sourceTree = "<group>"; };
+		C24B159B290F2B8B009DDC18 /* Rafo Herro - To Make Time.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rafo Herro - To Make Time.mp3"; sourceTree = "<group>"; };
+		C24B159C290F2B8D009DDC18 /* tg.blk - Love Being Used.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tg.blk - Love Being Used.mp3"; sourceTree = "<group>"; };
+		C24B159D290F2B8E009DDC18 /* Breakbot Irfane - Baby Im Yours.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Breakbot Irfane - Baby Im Yours.mp3"; sourceTree = "<group>"; };
+		C24B159E290F2B8E009DDC18 /* Dusty Springfield - Son Of A Preacher Man.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dusty Springfield - Son Of A Preacher Man.mp3"; sourceTree = "<group>"; };
+		C27A55B6290EDFE8000529F0 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		C27A55B8290EE015000529F0 /* PlayListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListView.swift; sourceTree = "<group>"; };
+		C27A55BA290EE77A000529F0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C27A55BC290EFD1C000529F0 /* CurrentSongViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentSongViewModel.swift; sourceTree = "<group>"; };
+		C27A55BF290F000A000529F0 /* PlayListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListModel.swift; sourceTree = "<group>"; };
+		C28043D7290EB58500A0B42D /* songify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = songify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28043DA290EB58500A0B42D /* songifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = songifyApp.swift; sourceTree = "<group>"; };
+		C28043DE290EB58600A0B42D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C28043E1290EB58600A0B42D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C28043E8290EB58600A0B42D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C28043EE290EBD5500A0B42D /* audioTest.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = audioTest.m4a; sourceTree = "<group>"; };
+		C28043F5290EDA6400A0B42D /* Jasper Byrne - Voyager.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jasper Byrne - Voyager.mp3"; sourceTree = "<group>"; };
+		C28043F6290EDA6400A0B42D /* The Killers - The Getting by II.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Killers - The Getting by II.mp3"; sourceTree = "<group>"; };
+		C28043F7290EDA6400A0B42D /* Pearl Jam - Given to fly.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pearl Jam - Given to fly.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C28043D4290EB58500A0B42D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C27A55BE290EFFDC000529F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C27A55BF290F000A000529F0 /* PlayListModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C28043CE290EB58500A0B42D = {
+			isa = PBXGroup;
+			children = (
+				C28043D9290EB58500A0B42D /* songify */,
+				C28043D8290EB58500A0B42D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C28043D8290EB58500A0B42D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C28043D7290EB58500A0B42D /* songify.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C28043D9290EB58500A0B42D /* songify */ = {
+			isa = PBXGroup;
+			children = (
+				C28043DA290EB58500A0B42D /* songifyApp.swift */,
+				C28043F0290ED70C00A0B42D /* Views */,
+				C28043F1290ED71700A0B42D /* ViewModels */,
+				C27A55BE290EFFDC000529F0 /* Models */,
+				C28043F2290ED72E00A0B42D /* Music */,
+				C24B1596290F1C97009DDC18 /* Extentions.swift */,
+				C27A55BA290EE77A000529F0 /* LaunchScreen.storyboard */,
+				C28043DE290EB58600A0B42D /* Assets.xcassets */,
+				C28043E8290EB58600A0B42D /* Info.plist */,
+				C28043E0290EB58600A0B42D /* Preview Content */,
+			);
+			path = songify;
+			sourceTree = "<group>";
+		};
+		C28043E0290EB58600A0B42D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C28043E1290EB58600A0B42D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C28043F0290ED70C00A0B42D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C27A55B6290EDFE8000529F0 /* PlayerView.swift */,
+				C27A55B8290EE015000529F0 /* PlayListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C28043F1290ED71700A0B42D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C27A55BC290EFD1C000529F0 /* CurrentSongViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C28043F2290ED72E00A0B42D /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				C24B159D290F2B8E009DDC18 /* Breakbot Irfane - Baby Im Yours.mp3 */,
+				C24B159E290F2B8E009DDC18 /* Dusty Springfield - Son Of A Preacher Man.mp3 */,
+				C24B159A290F2B8A009DDC18 /* Egg - putting a spin on heather.mp3 */,
+				C24B159B290F2B8B009DDC18 /* Rafo Herro - To Make Time.mp3 */,
+				C24B1598290F2B89009DDC18 /* Rat Boy IBDY - Whos Ready for Tomorrow.mp3 */,
+				C24B1599290F2B8A009DDC18 /* Rosa Walton Hallie Coggins - I Really Want to Stay at Your House.mp3 */,
+				C24B159C290F2B8D009DDC18 /* tg.blk - Love Being Used.mp3 */,
+				C28043F5290EDA6400A0B42D /* Jasper Byrne - Voyager.mp3 */,
+				C28043F7290EDA6400A0B42D /* Pearl Jam - Given to fly.mp3 */,
+				C28043F6290EDA6400A0B42D /* The Killers - The Getting by II.mp3 */,
+				C28043EE290EBD5500A0B42D /* audioTest.m4a */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C28043D6290EB58500A0B42D /* songify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C28043EB290EB58600A0B42D /* Build configuration list for PBXNativeTarget "songify" */;
+			buildPhases = (
+				C28043D3290EB58500A0B42D /* Sources */,
+				C28043D4290EB58500A0B42D /* Frameworks */,
+				C28043D5290EB58500A0B42D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = songify;
+			productName = songify;
+			productReference = C28043D7290EB58500A0B42D /* songify.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C28043CF290EB58500A0B42D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C28043D6290EB58500A0B42D = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C28043D2290EB58500A0B42D /* Build configuration list for PBXProject "songify" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C28043CE290EB58500A0B42D;
+			productRefGroup = C28043D8290EB58500A0B42D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C28043D6290EB58500A0B42D /* songify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C28043D5290EB58500A0B42D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28043EF290EBD5600A0B42D /* audioTest.m4a in Resources */,
+				C24B15A4290F2B8E009DDC18 /* Breakbot Irfane - Baby Im Yours.mp3 in Resources */,
+				C24B15A5290F2B8E009DDC18 /* Dusty Springfield - Son Of A Preacher Man.mp3 in Resources */,
+				C24B15A3290F2B8E009DDC18 /* tg.blk - Love Being Used.mp3 in Resources */,
+				C24B15A0290F2B8E009DDC18 /* Rosa Walton Hallie Coggins - I Really Want to Stay at Your House.mp3 in Resources */,
+				C28043E2290EB58600A0B42D /* Preview Assets.xcassets in Resources */,
+				C28043DF290EB58600A0B42D /* Assets.xcassets in Resources */,
+				C28043F8290EDA6400A0B42D /* Jasper Byrne - Voyager.mp3 in Resources */,
+				C24B159F290F2B8E009DDC18 /* Rat Boy IBDY - Whos Ready for Tomorrow.mp3 in Resources */,
+				C27A55BB290EE77A000529F0 /* LaunchScreen.storyboard in Resources */,
+				C24B15A2290F2B8E009DDC18 /* Rafo Herro - To Make Time.mp3 in Resources */,
+				C28043FA290EDA6400A0B42D /* Pearl Jam - Given to fly.mp3 in Resources */,
+				C28043F9290EDA6400A0B42D /* The Killers - The Getting by II.mp3 in Resources */,
+				C24B15A1290F2B8E009DDC18 /* Egg - putting a spin on heather.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C28043D3290EB58500A0B42D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27A55C0290F000A000529F0 /* PlayListModel.swift in Sources */,
+				C27A55B9290EE015000529F0 /* PlayListView.swift in Sources */,
+				C28043DB290EB58500A0B42D /* songifyApp.swift in Sources */,
+				C27A55B7290EDFE8000529F0 /* PlayerView.swift in Sources */,
+				C27A55BD290EFD1C000529F0 /* CurrentSongViewModel.swift in Sources */,
+				C24B1597290F1C97009DDC18 /* Extentions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C28043E9290EB58600A0B42D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C28043EA290EB58600A0B42D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C28043EC290EB58600A0B42D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"songify/Preview Content\"";
+				DEVELOPMENT_TEAM = BKVX2LKXJH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Songify;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mid.songify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C28043ED290EB58600A0B42D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"songify/Preview Content\"";
+				DEVELOPMENT_TEAM = BKVX2LKXJH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Songify;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mid.songify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C28043D2290EB58500A0B42D /* Build configuration list for PBXProject "songify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28043E9290EB58600A0B42D /* Debug */,
+				C28043EA290EB58600A0B42D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C28043EB290EB58600A0B42D /* Build configuration list for PBXNativeTarget "songify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28043EC290EB58600A0B42D /* Debug */,
+				C28043ED290EB58600A0B42D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C28043CF290EB58500A0B42D /* Project object */;
+}
