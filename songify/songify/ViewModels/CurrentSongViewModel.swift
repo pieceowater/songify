@@ -126,7 +126,12 @@ class CurrentSongViewModel: NSObject, ObservableObject, AVAudioPlayerDelegate {
             if decrease > 0.9 {
                 player.currentTime = 0
             } else {
-                currentSongIndex-=1
+                if currentSongIndex <= 0 {
+                    currentSongIndex = playList.count-1
+                }else{
+                    currentSongIndex-=1
+                }
+                
                 switchSong()
             }
         }
